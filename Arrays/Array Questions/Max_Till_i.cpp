@@ -8,7 +8,6 @@ int main()
     cin >> size;
     int arr[size];
     int mx = INT32_MIN;
-    cout << "max" << mx << endl;
 
     cout << "Enter Array values ";
     for (int i = 0; i < size; i++)
