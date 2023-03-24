@@ -20,6 +20,7 @@ void unique(int arr[], int n)
     int tempxor = xorsum;
     int setbit = 0;
     int pos = 0;
+    // finding right most setbit position
     while (setbit != 1)
     {
         setbit = xorsum & 1;
